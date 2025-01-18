@@ -50,5 +50,5 @@ CalorieScan is an innovative application that allows users to scan QR codes to c
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com//caloriescan](https://github.com/keshavsingh4093/3627-CalorieScan.git)
+   git clone https://github.com/keshavsingh4093/3627-CalorieScan.git
 
