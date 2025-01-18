@@ -24,8 +24,24 @@ const SAMPLE_DISHES: QRData[] = [
       { name: "Sambhar", quantity: 1 },
       { name: "Chutney", quantity: 1 }
     ]
-  }
-];
+  },
+  {
+    dishName: "Dal Rice",
+    items: [
+      { name: "Dal", quantity: 2 },
+      { name: "Rice", quantity: 1 }
+    ]
+  },
+  {
+    dishName: "Veg Thaali",
+    items: [
+      { name: "panneer curry", quantity: 1 },
+      { name: "Seasonal Veg Curry", quantity: 1 },
+      { name: "Seasonal Veg Curry", quantity: 1 }
+    ]
+  },
+]
+
 
 // Simulated calorie data
 const CALORIE_DATA: Record<string, number> = {
@@ -33,7 +49,17 @@ const CALORIE_DATA: Record<string, number> = {
   'Vada': 200,
   'Sambhar': 120,
   'Chutney': 80,
-  'Masala Dosa': 250
+  'Masala Dosa': 250,
+  'Rice': 300,
+  'Dal': 115,
+  'panneer curry': 200,
+  'Seasonal Veg Curry': 105,
+  'papad': 90,
+   'Gulab Jamun':200,
+   'Raitan':70,
+   'Soup':70,
+   'chapatai':150,
+   'pickle': 15,
 };
 
 function App() {

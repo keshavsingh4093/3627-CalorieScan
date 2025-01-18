@@ -1,0 +1,265 @@
+[
+    {
+      "_id": "678b2e70545430ed81870c96",
+      "name": "Idli Vada Combo",
+      "ingredients": [
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a19",
+            "name": "Idli",
+            "unit": "pc",
+            "calorie": 90,
+            "__v": 0
+          },
+          "quantity": 2,
+          "_id": "678b2e70545430ed81870c97"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1c",
+            "name": "Vada",
+            "unit": "pc",
+            "calorie": 200,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870c98"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1a",
+            "name": "Sambhar",
+            "unit": "serving",
+            "calorie": 110,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870c99"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1b",
+            "name": "Chutney",
+            "unit": "serving",
+            "calorie": 50,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870c9a"
+        }
+      ],
+      "__v": 0,
+      "image": "https://drive.google.com/file/d/1-8kfjRCpgvKXPr_g7GDN56opGYLfOGJn/view?usp=drive_link"
+    },
+    {
+      "_id": "678b2e70545430ed81870c9b",
+      "name": "Idli Sambhar",
+      "ingredients": [
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a19",
+            "name": "Idli",
+            "unit": "pc",
+            "calorie": 90,
+            "__v": 0
+          },
+          "quantity": 2,
+          "_id": "678b2e70545430ed81870c9c"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1a",
+            "name": "Sambhar",
+            "unit": "serving",
+            "calorie": 110,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870c9d"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1b",
+            "name": "Chutney",
+            "unit": "serving",
+            "calorie": 50,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870c9e"
+        }
+      ],
+      "__v": 0,
+      "image": "https://drive.google.com/file/d/1-4DJkyVHLCoMB8dtR1AWJV3LAvQP0Iej/view?usp=sharing"
+    },
+    {
+      "_id": "678b2e70545430ed81870c9f",
+      "name": "Veg Thaali",
+      "ingredients": [
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1d",
+            "name": "Paneer Curry",
+            "unit": "serving",
+            "calorie": 150,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca0"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1e",
+            "name": "Seasonal Veg Curry",
+            "unit": "serving",
+            "calorie": 105,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca1"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1f",
+            "name": "Dal",
+            "unit": "serving",
+            "calorie": 115,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca2"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a20",
+            "name": "Papad",
+            "unit": "pc",
+            "calorie": 90,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca3"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a26",
+            "name": "Gulab Jamun",
+            "unit": "pc",
+            "calorie": 200,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca4"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a25",
+            "name": "Raita",
+            "unit": "serving",
+            "calorie": 70,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca5"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a21",
+            "name": "Soup",
+            "unit": "serving",
+            "calorie": 70,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca6"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a24",
+            "name": "Chapati",
+            "unit": "pc",
+            "calorie": 150,
+            "__v": 0
+          },
+          "quantity": 2,
+          "_id": "678b2e70545430ed81870ca7"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a22",
+            "name": "Rice",
+            "unit": "serving",
+            "calorie": 150,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca8"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a23",
+            "name": "Pickle",
+            "unit": "serving",
+            "calorie": 15,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870ca9"
+        }
+      ],
+      "__v": 0,
+      "image": "https://drive.google.com/file/d/1-0CHE5eCR14cvJhwyFbbr7tRM1L1n7oK/view?usp=drive_link"
+    },
+    {
+      "_id": "678b2e70545430ed81870caa",
+      "name": "Dal Rice",
+      "ingredients": [
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a1f",
+            "name": "Dal",
+            "unit": "serving",
+            "calorie": 115,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870cab"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a22",
+            "name": "Rice",
+            "unit": "serving",
+            "calorie": 150,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870cac"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a23",
+            "name": "Pickle",
+            "unit": "serving",
+            "calorie": 15,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870cad"
+        },
+        {
+          "ingredient": {
+            "_id": "678a6e724069fd5f9c267a20",
+            "name": "Papad",
+            "unit": "pc",
+            "calorie": 90,
+            "__v": 0
+          },
+          "quantity": 1,
+          "_id": "678b2e70545430ed81870cae"
+        }
+      ],
+      "__v": 0,
+      "image": "https://drive.google.com/file/d/1-7RE37q2WKsI2HaW-oHJCbxpQkDRsoaJ/view?usp=drive_link"
+    }
+  ]
