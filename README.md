@@ -1,6 +1,6 @@
-# CaloriesCan
+# CalorieScan
 
-CaloriesCan is an innovative application that allows users to scan QR codes to check the calorie count of dishes. Users can also customize the quantity of a dish and view real-time calorie calculations.
+CalorieScan is an innovative application that allows users to scan QR codes to check the calorie count of dishes. Users can also customize the quantity of a dish and view real-time calorie calculations.
 
 ## Features
 - **QR Code Scanning**: Easily scan a QR code associated with a dish to view its calorie count.
@@ -50,5 +50,5 @@ CaloriesCan is an innovative application that allows users to scan QR codes to c
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/caloriescan.git
+   git clone [https://github.com//caloriescan](https://github.com/keshavsingh4093/3627-CalorieScan.git)
 
