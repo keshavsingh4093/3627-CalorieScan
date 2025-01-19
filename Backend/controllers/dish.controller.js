@@ -1,3 +1,4 @@
+import { Ingredient } from "../models/ingredient.model.js";
 import { Dish } from "../models/dish.model.js";
 
 const showAllDishes = async (req, res) => {
@@ -23,9 +24,25 @@ const showDishDetails = async (req, res) => {
 
     } catch (error) {
         console.log(error.message);
-        res.status.json(error.message);
+        res.status(400).json(error.message);
     }
 }
 
+const showCalorieData = async (req, res) => {
+    try {
+        const ingredients = await Ingredient.find();
 
-export { showAllDishes, showDishDetails };
+        const keyValueOfCalories = {};
+
+        for (const ingredient of ingredients) {
+            keyValueOfCalories[ingredient.name] = ingredient.calorie;
+        }
+
+        res.status(200).json(keyValueOfCalories);
+
+    } catch (error) {
+        res.status(400).json({msg: error.message})
+    }
+}
+
+export { showAllDishes, showDishDetails, showCalorieData };
