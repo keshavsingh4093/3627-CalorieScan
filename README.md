@@ -2,6 +2,8 @@
 
 Welcome to **CalorieScan**! A revolutionary app designed to help you track your daily calorie intake effortlessly. Simply scan QR codes associated with dishes, customize their quantities, and instantly see the updated calorie count. Get real-time insights into your meals for a healthier lifestyle.
 
+walk through of the project - https://drive.google.com/file/d/1-DBc5YZzTtvpa5VBJxC0-jWfq50snrPV/view?usp=sharing
+
 ## 🚀 Key Features
 
 - **QR Code Scanning**:  
