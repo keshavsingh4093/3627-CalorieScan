@@ -11,6 +11,7 @@ const ingredients = new Schema({
 
 const dishSchema = new Schema({
     name: String,
+    image: String,
     ingredients: [ingredients]
 });
 
