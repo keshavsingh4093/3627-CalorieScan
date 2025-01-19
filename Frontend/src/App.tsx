@@ -18,10 +18,11 @@ console.log(CALORIE_DATA);
 
 function App() {
   const [isScanning, setIsScanning] = useState(false);
-  const [showQRGenerator, setShowQRGenerator] = useState(false);
   const [selectedDish, setSelectedDish] = useState<QRData | null>(null);
   const [items, setItems] = useState<Item[]>([]);
   const [dishName, setDishName] = useState<string>('');
+ console.log(dishName);
+
   const [activeTab, setActiveTab] = useState<'scan' | 'generate' | 'history' | 'graph'>('scan');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [email, setEmail] = useState('');
@@ -183,7 +184,7 @@ function App() {
                       <div>
                         <h3 className="text-lg font-medium mb-4">Select a Dish</h3>
                         <div className="space-y-4">
-                          {SAMPLE_DISHES.map((dish) => (
+                          {SAMPLE_DISHES.map((dish: QRData) => (
                             <button
                               key={dish.dishName}
                               onClick={() => handleSelectDish(dish)}
@@ -195,7 +196,7 @@ function App() {
                             >
                               <h4 className="font-semibold">{dish.dishName}</h4>
                               <p className="text-sm text-gray-600 mt-1">
-                                {dish.items.map(item => `${item.quantity}x ${item.name}`).join(', ')}
+                                {dish.items.map((item: { quantity: any; name: any; }) => `${item.quantity}x ${item.name}`).join(', ')}
                               </p>
                             </button>
                           ))}
