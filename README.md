@@ -1,54 +1,41 @@
-# CalorieScan
+# 🍽️ CalorieScan - Your Personalized Calorie Tracker
 
-CalorieScan is an innovative application that allows users to scan QR codes to check the calorie count of dishes. Users can also customize the quantity of a dish and view real-time calorie calculations.
+Welcome to **CalorieScan**! A revolutionary app designed to help you track your daily calorie intake effortlessly. Simply scan QR codes associated with dishes, customize their quantities, and instantly see the updated calorie count. Get real-time insights into your meals for a healthier lifestyle.
 
-## Features
-- **QR Code Scanning**: Easily scan a QR code associated with a dish to view its calorie count.
-- **Dish Information**: Get detailed information about all available dishes.
-- **Real-Time Calorie Calculation**: Customize the dish quantity and see updated calorie information instantly.
-- **User Authentication**: Secure login and signup for personalized access.
+## 🚀 Key Features
 
-## API Endpoints
+- **QR Code Scanning**:  
+  Instantly scan QR codes to retrieve calorie details of your favorite dishes.
 
-### Authentication
-1. **Login**
-   - **URL**: `/login`
-   - **Method**: POST
-   - **Payload**:
-     ```json
-     {
-       "email": "user@example.com",
-       "password": "password123"
-     }
-     ```
-   - **Description**: Authenticates the user and provides access to their account.
+- **Dish Information**:  
+  Browse through an extensive list of dishes and get detailed information about each one.
 
-2. **Signup**
-   - **URL**: `/signup`
-   - **Method**: POST
-   - **Payload**:
-     ```json
-     {
-       "email": "user@example.com",
-       "name": "John Doe",
-       "password": "password123"
-     }
-     ```
-   - **Description**: Registers a new user to the application.
+- **Real-Time Calorie Calculation**:  
+  Customize the quantity of a dish and see the calorie count dynamically updated as you adjust.
+
+- **User Authentication**:  
+  Secure login and sign-up system for personalized access.  
+  **Login Credentials (For Demo):**  
+  - **Username**: `admin@gmail.com`  
+  - **Password**: `admin`
+
+## 🛠️ API Endpoints
 
 ### Dish Information
 3. **Get All Dishes**
    - **URL**: `/dishes`
-   - **Method**: GET
-   - **Description**: Fetches information about all available dishes.
+   - **Method**: `GET`
+   - **Response**: Returns a list of all available dishes with their calorie information.
 
 4. **Get a Specific Dish**
    - **URL**: `/dishes/:dishId`
-   - **Method**: GET
-   - **Description**: Fetches information about a specific dish by its ID.
+   - **Method**: `GET`
+   - **Response**: Returns detailed information about a specific dish by its ID.
 
-## Installation
+## 📦 Installation
+
+Follow these steps to get **CalorieScan** up and running locally:
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/keshavsingh4093/3627-CalorieScan.git
-
