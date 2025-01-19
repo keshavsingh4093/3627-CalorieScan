@@ -3,9 +3,24 @@ import { Dish } from "../models/dish.model.js";
 
 const showAllDishes = async (req, res) => {
     try {
-        const dishes = await Dish.find().populate("ingredients.ingredient")
+        const dishDetails = await Dish.find().populate("ingredients.ingredient")
 
-        res.status(200).json(dishes);
+        const Dishes = [];
+
+        for (let i = 0; i < dishDetails.length; i++) {
+            Dishes[i] = {};
+
+            Dishes[i].dishName = dishDetails[i].name;
+            Dishes[i].image = dishDetails[i].image;
+            Dishes[i].items = [];
+
+            for (const item of dishDetails[i].ingredients) {
+                Dishes[i]["items"].push({ name: item.ingredient.name, quantity: item.quantity });
+            }
+        }
+
+        res.status(200).json(Dishes);
+        
     } catch (error) {
         console.log(error.message);
         res.status(400).json(error.message);
