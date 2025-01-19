@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 
-const home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
