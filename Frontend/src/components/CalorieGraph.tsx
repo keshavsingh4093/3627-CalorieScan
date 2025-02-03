@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import type { Item } from '../types';
-
+{/*graph page */}
 interface CalorieGraphProps {
   data: Item[];
 }
