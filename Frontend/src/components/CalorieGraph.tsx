@@ -12,8 +12,9 @@ import type { Item } from '../types';
 {/*graph page */}
 interface CalorieGraphProps {
   data: Item[];
+  
 }
-
+{/*nijdfgcdsfgj */}
 export const CalorieGraph: React.FC<CalorieGraphProps> = ({ data }) => {
   if (!data || data.length === 0) {
     return <p className="text-gray-500">No data available to display.</p>;

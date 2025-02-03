@@ -1,6 +1,6 @@
 import { Ingredient } from "../models/ingredient.model.js";
 import { Dish } from "../models/dish.model.js";
-
+{/*kncijdhf */ }
 const showAllDishes = async (req, res) => {
     try {
         const dishDetails = await Dish.find().populate("ingredients.ingredient")
@@ -20,7 +20,7 @@ const showAllDishes = async (req, res) => {
         }
 
         res.status(200).json(Dishes);
-        
+
     } catch (error) {
         console.log(error.message);
         res.status(400).json(error.message);
@@ -32,7 +32,7 @@ const showDishDetails = async (req, res) => {
         const { dishId } = req.params;
 
         const dishDetails = await Dish.findOne({ _id: dishId }).populate(
-          "ingredients.ingredient"
+            "ingredients.ingredient"
         );
 
         res.status(200).json(dishDetails);
@@ -56,7 +56,7 @@ const showCalorieData = async (req, res) => {
         res.status(200).json(keyValueOfCalories);
 
     } catch (error) {
-        res.status(400).json({msg: error.message})
+        res.status(400).json({ msg: error.message })
     }
 }
 
